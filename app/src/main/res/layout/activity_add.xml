@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddActivity">
+
+    <EditText
+        android:id="@+id/title_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/title_editText" />
+
+    <EditText
+        android:id="@+id/author_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/author_editText" />
+
+    <EditText
+        android:id="@+id/pages_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/pages_editText"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/review_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/review_editText" />
+
+    <Spinner
+        android:id="@+id/genre_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/genre_options"
+        android:prompt="@string/nav_genre"
+        android:spinnerMode="dialog" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:onClick="onClickAddBook"
+        android:text="@string/add_book_editText"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/quote_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="@string/quote_editText" />
+
+    <EditText
+        android:id="@+id/quote_author_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/author_editText" />
+
+    <Button
+        android:id="@+id/add_quote_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:onClick="onClickAddQuote"
+        android:text="@string/add_quote_editText"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/fav_name_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="@string/favorite_character_editText" />
+
+    <EditText
+        android:id="@+id/title_fav_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/book_title_editText" />
+
+    <Button
+        android:id="@+id/add_fav_char_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:onClick="onClickAddFavCharacter"
+        android:text="@string/add_favorite_character_editText"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

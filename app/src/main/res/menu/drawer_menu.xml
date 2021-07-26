@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_genre"
+        android:icon="@drawable/baseline_auto_stories_black_24"
+        android:title="@string/nav_genre" />
+
+    <item
+        android:id="@+id/nav_quotes"
+        android:icon="@drawable/baseline_format_quote_black_24"
+        android:title="@string/nav_quotes" />
+
+    <item
+        android:id="@+id/nav_fav_characters"
+        android:icon="@drawable/baseline_face_black_24"
+        android:title="@string/nav_fav_characters" />
+
+</menu>

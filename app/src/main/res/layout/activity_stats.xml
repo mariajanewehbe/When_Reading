@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatsActivity">
+
+    <TextView
+        android:id="@+id/stats_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="@string/your_stats"
+        android:textColor="@color/teal_700"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/total_read_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stats_text_view"
+        android:layout_marginTop="40dp"
+        android:text="@string/total_read"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/book_count_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/stats_text_view"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/total_read_text_view"
+        android:textSize="18sp"
+        tools:text="54" />
+
+    <TextView
+        android:id="@+id/total_pages_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_read_text_view"
+        android:text="@string/total_pages"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/pages_count_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_read_text_view"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/total_pages_text_view"
+        android:textSize="18sp"
+        tools:text="7563" />
+
+    <TextView
+        android:id="@+id/total_romance_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_pages_text_view"
+        android:layout_marginTop="40dp"
+        android:text="@string/total_romance"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/romance_count_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_pages_text_view"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/total_romance_text_view"
+        android:textSize="18sp"
+        tools:text="23" />
+
+    <TextView
+        android:id="@+id/total_fiction_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_romance_text_view"
+        android:text="@string/total_fiction"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/fiction_count_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_romance_text_view"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/total_fiction_text_view"
+        android:textSize="18sp"
+        tools:text="2" />
+
+    <TextView
+        android:id="@+id/total_scifi_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_fiction_text_view"
+        android:text="@string/total_scifi"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/scifi_count_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_fiction_text_view"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/total_scifi_text_view"
+        android:textSize="18sp"
+        tools:text="11" />
+
+    <TextView
+        android:id="@+id/total_fantasy_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_scifi_text_view"
+        android:text="@string/total_fantasy"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/fantasy_count_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_scifi_text_view"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/total_fantasy_text_view"
+        android:textSize="18sp"
+        tools:text="32" />
+
+    <TextView
+        android:id="@+id/total_mystery_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_fantasy_text_view"
+        android:text="@string/total_mystery"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/mystery_count_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_fantasy_text_view"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/total_mystery_text_view"
+        android:textSize="18sp"
+        tools:text="0" />
+
+    <TextView
+        android:id="@+id/total_horror_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_mystery_text_view"
+        android:text="@string/total_horror"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/horror_count_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_mystery_text_view"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/total_horror_text_view"
+        android:textSize="18sp"
+        tools:text="20" />
+
+    <TextView
+        android:id="@+id/total_nonfiction_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_horror_text_view"
+        android:text="@string/total_nonfiction"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/nonfiction_count_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_horror_text_view"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/total_nonfiction_text_view"
+        android:textSize="18sp"
+        tools:text="5" />
+
+    <TextView
+        android:id="@+id/total_favs_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nonfiction_count_text_view"
+        android:layout_marginTop="40dp"
+        android:text="@string/total_favs"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/fav_count_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_nonfiction_text_view"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/total_favs_text_view"
+        android:textSize="18sp"
+        tools:text="7" />
+
+    <TextView
+        android:id="@+id/total_quotes_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_favs_text_view"
+        android:text="@string/total_quotes"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/quotes_count_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/total_favs_text_view"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/total_quotes_text_view"
+        android:textSize="18sp"
+        tools:text="87" />
+
+
+</RelativeLayout>

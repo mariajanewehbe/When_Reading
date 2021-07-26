@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">When Reading</string>
+    <string name="nav_fav_characters">Favorite Characters</string>
+    <string name="nav_genre">Genre</string>
+    <string name="nav_quotes">Quotes</string>
+    <string name="action_add">Add</string>
+    <string name="action_list">List of Books</string>
+    <string name="title_editText">Title</string>
+    <string name="author_editText">Author</string>
+    <string name="pages_editText">Pages</string>
+    <string name="review_editText">Review</string>
+    <string name="add_book_editText">Add Book</string>
+    <string name="rating_editText">Rating</string>
+    <string name="quote_editText">Quote</string>
+    <string name="add_quote_editText">Add Quote</string>
+    <string name="favorite_character_editText">Favorite Character</string>
+    <string name="book_title_editText">Book Title</string>
+    <string name="add_favorite_character_editText">Add Favorite Character</string>
+    <string-array name="genre_options">Genre>
+        <item>General Fiction</item>
+        <item>Sci-Fi</item>
+        <item>Fantasy</item>
+        <item>Romance</item>
+        <item>Mystery</item>
+        <item>Horror</item>
+        <item>General Nonfiction</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="nav_main_menu">Return to Main Menu</string>
+    <string name="number_of_pages">Number of pages:</string>
+    <string name="when_reading">When Reading</string>
+    <string name="stats_button">  Check your Stats  </string>
+    <string name="how_long_to_read_button">  How long to read  </string>
+    <string name="your_stats">Your Stats</string>
+    <string name="total_read">Total number of books read:</string>
+    <string name="total_pages">Total number of pages read:</string>
+    <string name="total_romance">Total number of romance books read:</string>
+    <string name="total_fiction">Total number of general fiction books read:</string>
+    <string name="total_scifi">Total number of sci-fi books read:</string>
+    <string name="total_fantasy">Total number of fantasy books read:</string>
+    <string name="total_mystery">Total number of mystery books read:</string>
+    <string name="total_horror">Total number of horror books read:</string>
+    <string name="total_nonfiction">Total number of general nonfiction books read:</string>
+    <string name="total_favs">Total number of favorite characters added:</string>
+    <string name="total_quotes">Total number of quotes added:</string>
+    <string name="enter_pages">Enter below the number of pages you want to read and how many words you read per minute to see how long it would take you to finish them.</string>
+    <string name="how_long_to_read">How Long To Read</string>
+    <string name="pages_text_view">pages</string>
+    <string name="calculate">Calculate</string>
+    <string name="word_per_minute">word per minute</string>
+    <string name="genre_list">Genre List</string>
+    <string name="select_button">Select</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

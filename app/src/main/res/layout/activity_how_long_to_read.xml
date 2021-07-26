@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HowLongToReadActivity">
+
+    <TextView
+        android:id="@+id/how_long_to_read_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="@string/how_long_to_read"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="50sp" />
+
+
+    <TextView
+        android:id="@+id/explanation_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/how_long_to_read_text_view"
+        android:layout_marginTop="40dp"
+        android:text="@string/enter_pages"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/pages_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/explanation_text_view"
+        android:hint="@string/pages_text_view"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/wpm_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/explanation_text_view"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@id/pages_edit_text"
+        android:hint="@string/word_per_minute"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pages_edit_text"
+        android:layout_marginStart="250dp"
+        android:layout_toEndOf="@+id/pages_edit_text"
+        android:background="@color/teal_700"
+        android:onClick="onClickCalculate"
+        android:text="@string/calculate"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/result_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calculate_button"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:text="It would take you 37 minutes to finish this number of pages." />
+
+
+</RelativeLayout>
